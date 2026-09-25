@@ -1,288 +1,282 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="theme-color" content="#1B4D3E">
-<title>[Your Name] — Digital Marketer &amp; Growth Strategist</title>
-<meta name="description" content="Portfolio of [Your Name] — a [Location]-based digital marketer and growth strategist helping brands scale with paid ads, social strategy and full-funnel growth systems.">
-<link rel="icon" href="images/favicon.svg" type="image/svg+xml">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
-<link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kishan Shrivastava | Portfolio</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        /* Nordic Air Theme Colors */
+        :root {
+            --bg-main: #F0F4F8;           /* Soft Ice Blue-White */
+            --bg-card: #FFFFFF;           /* Pure White */
+            --text-primary: #1E293B;      /* Ink Slate */
+            --accent-primary: #0284C7;    /* Steel Blue */
+            --accent-secondary: #BAE6FD;  /* Soft Powder Blue */
+            --border-color: #DCE5ED;      /* Cool Tinted Border */
+        }
+
+        /* Global Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg-main);
+            color: var(--text-primary);
+            line-height: 1.6;
+            padding: 2rem 1rem;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+
+        /* Card Containers */
+        .card {
+            background-color: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 2rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.02);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .card:hover {
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.05);
+        }
+
+        /* Typography & Headings */
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--text-primary);
+            margin-bottom: 0.5rem;
+        }
+
+        h3 {
+            font-size: 1.5rem;
+            color: var(--accent-primary);
+            margin-bottom: 1.5rem;
+            border-bottom: 2px solid var(--border-color);
+            padding-bottom: 0.5rem;
+        }
+
+        h4 {
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: var(--text-primary);
+        }
+
+        /* Hero Section */
+        .tagline {
+            font-size: 1.1rem;
+            font-weight: 500;
+            color: var(--accent-primary);
+            margin-bottom: 1rem;
+        }
+
+        .contact-info {
+            display: flex;
+            gap: 1.5rem;
+            flex-wrap: wrap;
+            margin-bottom: 1.5rem;
+            font-size: 0.95rem;
+            font-weight: 500;
+        }
+
+        .summary {
+            font-size: 1rem;
+            color: var(--text-primary);
+            opacity: 0.9;
+        }
+
+        /* Experience Section */
+        .job {
+            margin-bottom: 1.5rem;
+        }
+
+        .job-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 0.8rem;
+            flex-wrap: wrap;
+        }
+
+        .company {
+            font-size: 0.95rem;
+            font-weight: 600;
+            color: var(--accent-primary);
+            background-color: var(--bg-main);
+            padding: 0.2rem 0.6rem;
+            border-radius: 6px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 0.5rem;
+        }
+
+        ul li {
+            margin-bottom: 0.5rem;
+            position: relative;
+            padding-left: 1.2rem;
+            font-size: 0.95rem;
+        }
+
+        ul li::before {
+            content: "•";
+            color: var(--accent-primary);
+            font-weight: bold;
+            position: absolute;
+            left: 0;
+        }
+
+        .divider {
+            height: 1px;
+            background-color: var(--border-color);
+            margin: 1.5rem 0;
+        }
+
+        /* Skills Tags */
+        .tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.8rem;
+        }
+
+        .tag {
+            background-color: var(--accent-secondary);
+            color: var(--text-primary);
+            padding: 0.4rem 1rem;
+            border-radius: 99px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            transition: background-color 0.2s ease;
+            cursor: default;
+        }
+
+        .tag:hover {
+            background-color: var(--accent-primary);
+            color: var(--bg-card);
+        }
+
+        /* Responsive Design */
+        @media (max-width: 600px) {
+            .job-header {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 0.5rem;
+            }
+            h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
 </head>
 <body>
+    <div class="container">
+        <!-- Hero Section -->
+        <header class="card hero">
+            <div class="hero-content">
+                <h1>Kishan Shrivastava</h1>
+                <h2 class="tagline">Sales & Digital Marketing Professional | Founder - DigiG lab</h2>
+                <div class="contact-info">
+                    <p>📍 Indore, Madhya Pradesh</p>
+                    <p>📞 +91 7000694616</p>
+                    <p>✉️ digiglab@gmail.com</p>
+                </div>
+                <p class="summary">
+                    Results-driven Sales and Digital Marketing professional combining 2 years of rigorous sales background with 1.5 years of expertise in digital growth strategies. Proven track record in client acquisition, B2B sales, brand scaling, influencer marketing campaigns, and omni-channel social media management.
+                </p>
+            </div>
+        </header>
 
-<a class="skip-link" href="#main-content">Skip to content</a>
+        <!-- Experience Section -->
+        <section class="card experience">
+            <h3>Professional Experience</h3>
+            
+            <div class="job">
+                <div class="job-header">
+                    <h4>Founder</h4>
+                    <span class="company">DigiG lab | Indore (Current)</span>
+                </div>
+                <ul>
+                    <li>Manage end-to-end digital marketing, creative content production, and brand growth activities.</li>
+                    <li>Successfully partnered with 25+ brands across diverse industrial sectors.</li>
+                    <li>Engineered a proprietary network of 500+ active influencers and creators in Indore for strategic B2B influencer campaigns.</li>
+                    <li>Architect targeted social media strategies focused on organic brand visibility, consumer engagement, and business ROI.</li>
+                </ul>
+            </div>
 
-<!-- ============ HEADER ============ -->
-<header id="site-header" class="site-header">
-  <div class="header-inner">
-    <a class="brand" href="#hero" aria-label="Back to top">
-      <span class="brand-photo">
-        <img src="images/profile.jpg" alt="Portrait of [Your Name]">
-      </span>
-      <span class="brand-text">
-        <span class="brand-name">[Your Name]</span>
-        <span class="brand-role">Digital Marketer</span>
-      </span>
-    </a>
+            <div class="divider"></div>
 
-    <div class="header-actions">
-      <p class="status-pill">
-        <span class="status-dot" aria-hidden="true"></span>
-        Available for work
-      </p>
-      <button id="menu-toggle" class="menu-btn" type="button"
-              aria-expanded="false" aria-controls="nav-drawer" aria-label="Open navigation menu">
-        <span class="menu-lines" aria-hidden="true">
-          <span></span><span></span><span></span>
-        </span>
-      </button>
+            <div class="job">
+                <div class="job-header">
+                    <h4>Sales Professional</h4>
+                    <span class="company">2 Years Experience</span>
+                </div>
+                <ul>
+                    <li>Executed high-performance B2B/B2C sales cycles and cultivated robust client communications.</li>
+                    <li>Drove lead generation pipelines, proactive customer handling, and long-term relationship management.</li>
+                    <li>Consistently achieved aggressive sales targets through highly optimized, conversion-focused processes.</li>
+                </ul>
+            </div>
+
+            <div class="divider"></div>
+
+            <div class="job">
+                <div class="job-header">
+                    <h4>Digital Marketing Professional</h4>
+                    <span class="company">1.5 Years Experience | Indore</span>
+                </div>
+                <ul>
+                    <li>Directed comprehensive social media management and data-backed content strategies.</li>
+                    <li>Planned high-impact promotional reels, interactive posts, and engaging content pipelines.</li>
+                    <li>Executed result-driven influencer marketing and strategic creator partnerships.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="card skills">
+            <h3>Key Skills</h3>
+            <div class="tags">
+                <span class="tag">Digital Marketing</span>
+                <span class="tag">Sales & BD</span>
+                <span class="tag">Social Media</span>
+                <span class="tag">Content Strategy</span>
+                <span class="tag">Influencer Mktg</span>
+                <span class="tag">B2B Marketing</span>
+                <span class="tag">Client Acquisition</span>
+                <span class="tag">Brand Management</span>
+                <span class="tag">Content Creation</span>
+                <span class="tag">Video Production</span>
+                <span class="tag">Negotiation</span>
+                <span class="tag">Business Dev</span>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section class="card education">
+            <h3>Education & Credentials</h3>
+            <ul>
+                <li><strong>Bachelor of Commerce (B.Com)</strong></li>
+                <li>Class 12 - Priyamvada Birla School</li>
+                <li>Class 10 - Chanakya Public School, Satna</li>
+            </ul>
+        </section>
     </div>
-  </div>
-</header>
-
-<!-- ============ NAV DRAWER ============ -->
-<div id="nav-drawer" class="nav-drawer" hidden>
-  <div class="nav-backdrop" data-close-nav></div>
-  <nav class="nav-panel" aria-label="Main navigation">
-    <div class="nav-panel-head">
-      <p class="nav-panel-title">Menu</p>
-      <button id="menu-close" class="menu-btn menu-btn--close" type="button" aria-label="Close navigation menu">
-        <span aria-hidden="true">&times;</span>
-      </button>
-    </div>
-    <ul class="nav-list">
-      <li><a href="#hero"><span class="nav-index">01</span>Home</a></li>
-      <li><a href="#services"><span class="nav-index">02</span>Services</a></li>
-      <li><a href="#about"><span class="nav-index">03</span>About</a></li>
-      <li><a href="#campaigns"><span class="nav-index">04</span>Campaigns</a></li>
-      <li><a href="#testimonials"><span class="nav-index">05</span>Clients</a></li>
-      <li><a href="#faq"><span class="nav-index">06</span>FAQ</a></li>
-      <li><a href="#insights"><span class="nav-index">07</span>Insights</a></li>
-      <li><a href="#contact"><span class="nav-index">08</span>Contact</a></li>
-    </ul>
-    <div class="nav-panel-foot">
-      <a class="nav-mail" href="mailto:[your@email.com]">[your@email.com]</a>
-      <p class="nav-loc">[Your City, Country]</p>
-    </div>
-  </nav>
-</div>
-
-<main id="main-content">
-
-  <!-- ============ HERO ============ -->
-  <section id="hero" class="hero">
-    <div class="hero-inner">
-      <p class="eyebrow" data-reveal>Portfolio <span aria-hidden="true">/</span> Growth &amp; Performance</p>
-
-      <h1 class="hero-name" data-reveal>
-        <span>[Your First Name]</span>
-        <span class="hero-name-last">[Your Last Name]</span>
-      </h1>
-
-      <p class="hero-word" data-reveal>Digital</p>
-
-      <div class="hero-figure" data-reveal>
-        <div class="hero-portrait">
-          <img src="images/profile.jpg" alt="Portrait of [Your Name]">
-        </div>
-        <span class="hero-badge" aria-hidden="true">
-          <span class="hero-badge-emoji">&#128075;</span>
-          <span class="hero-badge-ring"></span>
-        </span>
-      </div>
-
-      <p class="hero-word hero-word--alt" data-reveal>Marketer</p>
-
-      <p class="hero-sub" data-reveal>I'm a [Location]-based digital marketer and growth strategist.</p>
-
-      <div class="hero-cta" data-reveal>
-        <a class="btn btn--gold" href="#contact">Let's Talk Growth</a>
-        <a class="btn btn--ghost" href="#campaigns">View Case Studies</a>
-      </div>
-
-      <a class="hero-scroll" href="#services" data-reveal>
-        <span>Scroll</span>
-        <span class="hero-scroll-line" aria-hidden="true"></span>
-      </a>
-    </div>
-  </section>
-
-  <!-- ============ SERVICES ============ -->
-  <section id="services" class="section">
-    <div class="section-inner">
-      <header class="section-head">
-        <p class="eyebrow" data-reveal>Services</p>
-        <h2 class="section-title" data-reveal>What I Can Do <span class="accent">For You</span></h2>
-        <p class="section-lead" data-reveal>
-          I build measurable growth engines — not vanity metrics. Every strategy is mapped to pipeline,
-          return on ad spend and compounding brand equity, so your marketing budget works like an investment.
-        </p>
-      </header>
-      <ul id="services-list" class="accordion accordion--services"></ul>
-    </div>
-  </section>
-
-  <!-- ============ ABOUT + STATS ============ -->
-  <section id="about" class="section section--alt">
-    <div class="section-inner about-grid">
-      <div class="about-copy">
-        <p class="eyebrow" data-reveal>About Me</p>
-        <h2 class="section-title" data-reveal>Hi, I'm <span class="accent">[Your Name]</span></h2>
-        <p class="about-text" data-reveal>[Your Bio] — a short paragraph about who you are, the brands you have worked with,
-          and the kind of growth problems you love solving. Keep it human, confident and outcome-first.</p>
-
-        <dl class="contact-list" data-reveal>
-          <div class="contact-item">
-            <dt><i class="fa-solid fa-phone" aria-hidden="true"></i><span>Phone</span></dt>
-            <dd><a href="tel:+910000000000">[+91 00000 00000]</a></dd>
-          </div>
-          <div class="contact-item">
-            <dt><i class="fa-solid fa-envelope" aria-hidden="true"></i><span>Email</span></dt>
-            <dd><a href="mailto:[your@email.com]">[your@email.com]</a></dd>
-          </div>
-          <div class="contact-item">
-            <dt><i class="fa-solid fa-location-dot" aria-hidden="true"></i><span>Based in</span></dt>
-            <dd>[Your City, Country]</dd>
-          </div>
-        </dl>
-
-        <ul id="social-list" class="social-list" data-reveal aria-label="Social profiles"></ul>
-
-        <a class="btn btn--pill" href="#campaigns" data-reveal>My Story</a>
-      </div>
-
-      <ul id="stats-list" class="stats" aria-label="Key results"></ul>
-    </div>
-  </section>
-
-  <!-- ============ CAMPAIGNS ============ -->
-  <section id="campaigns" class="section">
-    <div class="section-inner">
-      <header class="section-head section-head--row">
-        <div>
-          <p class="eyebrow" data-reveal>Featured Campaigns</p>
-          <h2 class="section-title" data-reveal>Work That <span class="accent">Moved Numbers</span></h2>
-        </div>
-        <p class="section-lead section-lead--narrow" data-reveal>Selected projects and the results they produced.</p>
-      </header>
-      <div id="campaigns-grid" class="card-grid card-grid--campaigns"></div>
-    </div>
-  </section>
-
-  <!-- ============ TESTIMONIALS ============ -->
-  <section id="testimonials" class="section section--alt">
-    <div class="section-inner">
-      <header class="section-head">
-        <p class="eyebrow" data-reveal>Testimonials</p>
-        <h2 class="section-title" data-reveal>What My <span class="accent">Clients Say</span></h2>
-      </header>
-      <div id="testimonials-grid" class="card-grid card-grid--testimonials"></div>
-    </div>
-  </section>
-
-  <!-- ============ FAQ ============ -->
-  <section id="faq" class="section">
-    <div class="section-inner faq-grid">
-      <header class="section-head">
-        <p class="eyebrow" data-reveal>FAQ</p>
-        <h2 class="section-title" data-reveal>Questions, <span class="accent">Answered</span></h2>
-        <p class="section-lead" data-reveal>Still unsure about something? Send it over through the contact form and I'll reply personally.</p>
-      </header>
-      <ul id="faq-list" class="accordion accordion--faq"></ul>
-    </div>
-  </section>
-
-  <!-- ============ INSIGHTS ============ -->
-  <section id="insights" class="section section--alt">
-    <div class="section-inner">
-      <header class="section-head section-head--row">
-        <div>
-          <p class="eyebrow" data-reveal>Insights &amp; Ideas</p>
-          <h2 class="section-title" data-reveal>Notes From <span class="accent">The Field</span></h2>
-        </div>
-        <p class="section-lead section-lead--narrow" data-reveal>Playbooks, breakdowns and lessons from live campaigns.</p>
-      </header>
-      <div id="insights-grid" class="card-grid card-grid--insights"></div>
-    </div>
-  </section>
-
-  <!-- ============ CONTACT ============ -->
-  <section id="contact" class="section">
-    <div class="section-inner contact-grid">
-      <div class="contact-intro">
-        <p class="eyebrow" data-reveal>Contact</p>
-        <h2 class="section-title" data-reveal>Let's Work <span class="accent">Together</span></h2>
-        <p class="section-lead" data-reveal>Tell me about your business and the result you want this quarter. I'll come back with a clear next step.</p>
-
-        <div class="contact-portrait" data-reveal>
-          <img src="images/profile.jpg" alt="[Your Name] ready to discuss a new project">
-        </div>
-
-        <dl class="contact-list" data-reveal>
-          <div class="contact-item">
-            <dt><i class="fa-solid fa-envelope" aria-hidden="true"></i><span>Email</span></dt>
-            <dd><a href="mailto:[your@email.com]">[your@email.com]</a></dd>
-          </div>
-          <div class="contact-item">
-            <dt><i class="fa-solid fa-phone" aria-hidden="true"></i><span>Phone</span></dt>
-            <dd><a href="tel:+910000000000">[+91 00000 00000]</a></dd>
-          </div>
-        </dl>
-      </div>
-
-      <form id="contact-form" class="contact-form" novalidate>
-        <div class="field">
-          <label for="field-name">Name</label>
-          <input id="field-name" name="name" type="text" placeholder="[Your full name]" required autocomplete="name">
-        </div>
-        <div class="field">
-          <label for="field-email">Email</label>
-          <input id="field-email" name="email" type="email" placeholder="[you@company.com]" required autocomplete="email">
-        </div>
-        <div class="field">
-          <label for="field-service">Service Needed</label>
-          <select id="field-service" name="service" required>
-            <option value="">Select a service</option>
-          </select>
-        </div>
-        <div class="field">
-          <label for="field-message">Message</label>
-          <textarea id="field-message" name="message" rows="5" placeholder="[Tell me about your goals, timeline and budget]" required></textarea>
-        </div>
-        <button id="form-submit" class="btn btn--gold btn--submit" type="submit">Submit</button>
-        <p id="form-status" class="form-status" role="status" aria-live="polite"></p>
-      </form>
-    </div>
-  </section>
-
-</main>
-
-<!-- ============ FOOTER ============ -->
-<footer id="site-footer" class="site-footer">
-  <div class="footer-inner">
-    <div class="footer-brand">
-      <span class="brand-photo brand-photo--sm"><img src="images/profile.jpg" alt=""></span>
-      <div>
-        <p class="footer-name">[Your Name]</p>
-        <p class="footer-role">Digital Marketer &amp; Growth Strategist</p>
-      </div>
-    </div>
-    <ul class="footer-meta">
-      <li><a href="mailto:[your@email.com]">[your@email.com]</a></li>
-      <li><a href="tel:+910000000000">[+91 00000 00000]</a></li>
-      <li>[Your City, Country]</li>
-    </ul>
-    <ul id="footer-social" class="social-list social-list--footer" aria-label="Social profiles"></ul>
-    <p class="footer-copy">&copy; <span id="footer-year">2026</span> [Your Name]. All rights reserved.</p>
-  </div>
-</footer>
-
-<script src="js/content.js"></script>
-<script src="js/main.js"></script>
 </body>
 </html>

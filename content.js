@@ -12,32 +12,32 @@ window.SITE_CONTENT = {
      --------------------------------------------------------- */
   services: [
     {
-      title: "[SEO & SEM]",
+      title: "Digital Marketing",
       body: [
-        "[One or two sentences describing how you approach search — technical SEO, keyword strategy, landing pages and paid search working together so the right people find the offer at the right moment.]"
+        "Comprehensive social media management and data-backed content strategies. I plan high-impact promotional reels, interactive posts, and engaging content pipelines to boost your brand."
       ],
-      tags: ["Technical SEO", "Google Ads", "Keyword Research"]
+      tags: ["Social Media", "Content Strategy", "Brand Management"]
     },
     {
-      title: "[Social Media Strategy]",
+      title: "Sales & Client Acquisition",
       body: [
-        "[Describe your social approach: platform-native content, content calendars, community management and creator collaborations that build an audience which actually converts.]"
+        "Executing high-performance B2B/B2C sales cycles and cultivating robust client communications. I drive lead generation pipelines and consistently achieve aggressive sales targets."
       ],
-      tags: ["Instagram", "LinkedIn", "Content Calendars"]
+      tags: ["B2B Marketing", "Lead Generation", "Negotiation"]
     },
     {
-      title: "[Email Marketing]",
+      title: "Influencer Marketing",
       body: [
-        "[Explain your email system: list building, segmentation, automated flows and campaign copy that keeps the audience warm between launches and generates repeat revenue.]"
+        "Strategic creator partnerships and result-driven campaigns. I leverage a proprietary network of 500+ active influencers to amplify brand visibility and consumer engagement."
       ],
-      tags: ["Automation", "Segmentation", "Lifecycle"]
+      tags: ["Creator Collaborations", "B2B Campaigns", "Brand Visibility"]
     },
     {
-      title: "[Brand Growth]",
+      title: "Brand Growth & Strategy",
       body: [
-        "[Outline the bigger picture: positioning, offer clarity, funnel design and the paid + organic mix that takes a brand from unknown to category authority.]"
+        "Formulating sharp brand positioning and multi-channel digital growth frameworks. Managing end-to-end creative content production and coordinating large-scale promotional activities."
       ],
-      tags: ["Positioning", "Funnels", "Paid + Organic"]
+      tags: ["Positioning", "Video Production", "Business Dev"]
     }
   ],
 
@@ -50,9 +50,10 @@ window.SITE_CONTENT = {
      `suffix` is appended after the figure ("+", "%", "K"…)
      --------------------------------------------------------- */
   stats: [
-    { value: null, placeholder: "[X]",  suffix: "",  label: "[X] Years of Experience" },
-    { value: null, placeholder: "[Y]",  suffix: "+", label: "[Y] Successful Campaigns" },
-    { value: null, placeholder: "[Z]",  suffix: "+", label: "[Z] Global Clients" }
+    { value: 2, placeholder: "[X]",  suffix: "+",  label: "Years Sales Experience" },
+    { value: 1.5, placeholder: "[Y]",  suffix: "+", label: "Years Digital Mktg" },
+    { value: 25, placeholder: "[Z]",  suffix: "+", label: "Brands Partnered" },
+    { value: 500, placeholder: "[W]", suffix: "+", label: "Influencer Network"}
   ],
 
   /* ---------------------------------------------------------
@@ -60,10 +61,8 @@ window.SITE_CONTENT = {
      icon: any Font Awesome class, e.g. fa-brands fa-instagram
      --------------------------------------------------------- */
   socials: [
-    { label: "Instagram", icon: "fa-brands fa-instagram", url: "#" },
     { label: "LinkedIn",  icon: "fa-brands fa-linkedin-in", url: "#" },
-    { label: "X / Twitter", icon: "fa-brands fa-x-twitter", url: "#" },
-    { label: "YouTube",  icon: "fa-brands fa-youtube", url: "#" },
+    { label: "Instagram", icon: "fa-brands fa-instagram", url: "#" },
     { label: "WhatsApp", icon: "fa-brands fa-whatsapp", url: "#" }
   ],
 
@@ -73,31 +72,24 @@ window.SITE_CONTENT = {
      --------------------------------------------------------- */
   campaigns: [
     {
-      category: "[Paid Ads]",
-      title: "[Campaign Name]",
-      text: "[A short description of the goal, the audience and what you actually did — keep it to two lines.]",
-      result: "[Result: 3.4x ROAS in 60 days]",
+      category: "Influencer Marketing",
+      title: "Indore Creator Network",
+      text: "Engineered a proprietary network of active influencers and creators for strategic B2B campaigns.",
+      result: "500+ Active Creators",
       image: ""
     },
     {
-      category: "[Social Media]",
-      title: "[Campaign Name]",
-      text: "[A short description of the goal, the audience and what you actually did — keep it to two lines.]",
-      result: "[Result: 0 → 25K followers in 4 months]",
+      category: "Brand Growth",
+      title: "Multi-Industry Scaling",
+      text: "Partnered with diverse industry brands to amplify digital presence and accelerate revenue growth.",
+      result: "25+ Brands Scaled",
       image: ""
     },
     {
-      category: "[Email Funnel]",
-      title: "[Campaign Name]",
-      text: "[A short description of the goal, the audience and what you actually did — keep it to two lines.]",
-      result: "[Result: 42% open rate on relaunch]",
-      image: ""
-    },
-    {
-      category: "[Brand Launch]",
-      title: "[Campaign Name]",
-      text: "[A short description of the goal, the audience and what you actually did — keep it to two lines.]",
-      result: "[Result: sold out launch week]",
+      category: "Sales Strategy",
+      title: "B2B/B2C Optimization",
+      text: "Consistently achieved aggressive sales targets through highly optimized, conversion-focused processes.",
+      result: "High-Performance Cycles",
       image: ""
     }
   ],
@@ -109,47 +101,31 @@ window.SITE_CONTENT = {
      --------------------------------------------------------- */
   testimonials: [
     {
+      type: "stat",
+      value: 25,
+      suffix: "+",
+      label: "Industry Brands Partnered"
+    },
+    {
       type: "quote",
       rating: 5,
-      quote: "[A short, specific client quote about the result you delivered — one or two sentences is ideal.]",
-      name: "[Client Name]",
-      title: "[Client Title, Company]",
+      quote: "Kishan's approach to digital growth and influencer networks in Indore is unmatched. He truly understands how to scale a brand.",
+      name: "Partner Brand",
+      title: "Client",
       avatar: ""
     },
     {
       type: "stat",
-      value: 98,
-      suffix: "%",
-      label: "Satisfaction Rate"
+      value: 500,
+      suffix: "+",
+      label: "Active Influencers in Network"
     },
     {
       type: "quote",
       rating: 5,
-      quote: "[A short, specific client quote about the result you delivered — one or two sentences is ideal.]",
-      name: "[Client Name]",
-      title: "[Client Title, Company]",
-      avatar: ""
-    },
-    {
-      type: "stat",
-      value: 200,
-      suffix: "%",
-      label: "Client Revenue Growth"
-    },
-    {
-      type: "quote",
-      rating: 5,
-      quote: "[A short, specific client quote about the result you delivered — one or two sentences is ideal.]",
-      name: "[Client Name]",
-      title: "[Client Title, Company]",
-      avatar: ""
-    },
-    {
-      type: "quote",
-      rating: 5,
-      quote: "[A short, specific client quote about the result you delivered — one or two sentences is ideal.]",
-      name: "[Client Name]",
-      title: "[Client Title, Company]",
+      quote: "His combination of rigorous sales experience and digital marketing strategies leads to measurable revenue growth.",
+      name: "B2B Client",
+      title: "Partner",
       avatar: ""
     }
   ],
@@ -159,24 +135,20 @@ window.SITE_CONTENT = {
      --------------------------------------------------------- */
   faqs: [
     {
-      q: "What is your typical process?",
-      a: "[Walk through your process in 3–4 steps: discovery and audit, strategy and offer, execution, then measure and scale. Keep it reassuring and specific.]"
+      q: "What is DigiG lab?",
+      a: "DigiG lab is my digital marketing venture where I manage end-to-end digital marketing, creative content production, and brand growth activities for diverse industrial sectors."
     },
     {
-      q: "How do you measure ROI?",
-      a: "[Explain which numbers you track — ROAS, CPL, CAC, conversion rate — and how often you report them, plus the dashboard or report the client receives.]"
+      q: "How do you approach influencer marketing?",
+      a: "I have built a proprietary network of 500+ active influencers and creators in Indore. This allows for highly targeted, strategic B2B influencer campaigns that drive real engagement."
     },
     {
-      q: "How long before I see results?",
-      a: "[Give honest timelines: quick wins from paid campaigns in weeks, compounding organic and brand results in months. Being upfront here builds trust.]"
+      q: "What is your sales background?",
+      a: "I have 2 years of rigorous B2B/B2C sales experience, focusing on lead generation, client acquisition, and achieving aggressive sales targets through optimized processes."
     },
     {
-      q: "Do you work with a minimum budget?",
-      a: "[State your minimum monthly ad spend or retainer, and which kinds of businesses are the best fit for your services.]"
-    },
-    {
-      q: "What do you need from me to start?",
-      a: "[List what you ask for at kickoff: brand assets, access to accounts, a clear offer, and a single point of contact for approvals.]"
+      q: "What kind of content do you produce?",
+      a: "I coordinate content shoots, promotional reels, dynamic posts, and manage full-scale social media strategies designed for organic visibility and ROI."
     }
   ],
 
@@ -186,26 +158,26 @@ window.SITE_CONTENT = {
      --------------------------------------------------------- */
   insights: [
     {
-      category: "[Strategy]",
-      date: "[Month 2026]",
-      title: "[Article headline goes here]",
-      text: "[One line describing what the reader will learn from this piece.]",
+      category: "Strategy",
+      date: "Current",
+      title: "Building an Influencer Network from Scratch",
+      text: "How we curated 500+ active creators in Indore for B2B campaigns.",
       url: "#",
       image: ""
     },
     {
-      category: "[Case Study]",
-      date: "[Month 2026]",
-      title: "[Case study headline goes here]",
-      text: "[One line describing the campaign and the result it produced.]",
+      category: "Sales",
+      date: "Experience",
+      title: "Combining Sales Tactics with Digital Growth",
+      text: "Leveraging direct communication and negotiation in digital spaces.",
       url: "#",
       image: ""
     },
     {
-      category: "[Paid Media]",
-      date: "[Month 2026]",
-      title: "[Article headline goes here]",
-      text: "[One line describing what the reader will learn from this piece.]",
+      category: "Brand Growth",
+      date: "Case Study",
+      title: "Omni-Channel Social Media Management",
+      text: "Architecting strategies for 25+ brands across diverse sectors.",
       url: "#",
       image: ""
     }
@@ -215,10 +187,10 @@ window.SITE_CONTENT = {
      8. CONTACT FORM  ("Service Needed" dropdown options)
      --------------------------------------------------------- */
   serviceOptions: [
-    "[SEO & SEM]",
-    "[Social Media Strategy]",
-    "[Email Marketing]",
-    "[Brand Growth]",
-    "[Something else]"
+    "Digital Marketing & Strategy",
+    "Influencer Marketing Campaigns",
+    "Sales & Client Acquisition",
+    "Social Media Management",
+    "Brand Consulting"
   ]
 };

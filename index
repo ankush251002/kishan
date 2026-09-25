@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kishan Shrivastava | Portfolio</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        /* Nordic Air Theme Colors */
+        :root {
+            --bg-main: #F0F4F8;           /* Soft Ice Blue-White */
+            --bg-card: #FFFFFF;           /* Pure White */
+            --text-primary: #1E293B;      /* Ink Slate */
+            --accent-primary: #0284C7;    /* Steel Blue */
+            --accent-secondary: #BAE6FD;  /* Soft Powder Blue */
+            --border-color: #DCE5ED;      /* Cool Tinted Border */
+        }
+
+        /* Global Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg-main);
+            color: var(--text-primary);
+            line-height: 1.6;
+            padding: 2rem 1rem;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+
+        /* Card Containers */
+        .card {
+            background-color: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 2rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.02);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .card:hover {
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.05);
+        }
+
+        /* Typography & Headings */
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--text-primary);
+            margin-bottom: 0.5rem;
+        }
+
+        h3 {
+            font-size: 1.5rem;
+            color: var(--accent-primary);
+            margin-bottom: 1.5rem;
+            border-bottom: 2px solid var(--border-color);
+            padding-bottom: 0.5rem;
+        }
+
+        h4 {
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: var(--text-primary);
+        }
+
+        /* Hero Section */
+        .tagline {
+            font-size: 1.1rem;
+            font-weight: 500;
+            color: var(--accent-primary);
+            margin-bottom: 1rem;
+        }
+
+        .contact-info {
+            display: flex;
+            gap: 1.5rem;
+            flex-wrap: wrap;
+            margin-bottom: 1.5rem;
+            font-size: 0.95rem;
+            font-weight: 500;
+        }
+
+        .summary {
+            font-size: 1rem;
+            color: var(--text-primary);
+            opacity: 0.9;
+        }
+
+        /* Experience Section */
+        .job {
+            margin-bottom: 1.5rem;
+        }
+
+        .job-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 0.8rem;
+            flex-wrap: wrap;
+        }
+
+        .company {
+            font-size: 0.95rem;
+            font-weight: 600;
+            color: var(--accent-primary);
+            background-color: var(--bg-main);
+            padding: 0.2rem 0.6rem;
+            border-radius: 6px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 0.5rem;
+        }
+
+        ul li {
+            margin-bottom: 0.5rem;
+            position: relative;
+            padding-left: 1.2rem;
+            font-size: 0.95rem;
+        }
+
+        ul li::before {
+            content: "•";
+            color: var(--accent-primary);
+            font-weight: bold;
+            position: absolute;
+            left: 0;
+        }
+
+        .divider {
+            height: 1px;
+            background-color: var(--border-color);
+            margin: 1.5rem 0;
+        }
+
+        /* Skills Tags */
+        .tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.8rem;
+        }
+
+        .tag {
+            background-color: var(--accent-secondary);
+            color: var(--text-primary);
+            padding: 0.4rem 1rem;
+            border-radius: 99px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            transition: background-color 0.2s ease;
+            cursor: default;
+        }
+
+        .tag:hover {
+            background-color: var(--accent-primary);
+            color: var(--bg-card);
+        }
+
+        /* Responsive Design */
+        @media (max-width: 600px) {
+            .job-header {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 0.5rem;
+            }
+            h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Hero Section -->
+        <header class="card hero">
+            <div class="hero-content">
+                <h1>Kishan Shrivastava</h1>
+                <h2 class="tagline">Sales & Digital Marketing Professional | Founder - DigiG lab</h2>
+                <div class="contact-info">
+                    <p>📍 Indore, Madhya Pradesh</p>
+                    <p>📞 +91 7000694616</p>
+                    <p>✉️ digiglab@gmail.com</p>
+                </div>
+                <p class="summary">
+                    Results-driven Sales and Digital Marketing professional combining 2 years of rigorous sales background with 1.5 years of expertise in digital growth strategies. Proven track record in client acquisition, B2B sales, brand scaling, influencer marketing campaigns, and omni-channel social media management.
+                </p>
+            </div>
+        </header>
+
+        <!-- Experience Section -->
+        <section class="card experience">
+            <h3>Professional Experience</h3>
+            
+            <div class="job">
+                <div class="job-header">
+                    <h4>Founder</h4>
+                    <span class="company">DigiG lab | Indore (Current)</span>
+                </div>
+                <ul>
+                    <li>Manage end-to-end digital marketing, creative content production, and brand growth activities.</li>
+                    <li>Successfully partnered with 25+ brands across diverse industrial sectors.</li>
+                    <li>Engineered a proprietary network of 500+ active influencers and creators in Indore for strategic B2B influencer campaigns.</li>
+                    <li>Architect targeted social media strategies focused on organic brand visibility, consumer engagement, and business ROI.</li>
+                </ul>
+            </div>
+
+            <div class="divider"></div>
+
+            <div class="job">
+                <div class="job-header">
+                    <h4>Sales Professional</h4>
+                    <span class="company">2 Years Experience</span>
+                </div>
+                <ul>
+                    <li>Executed high-performance B2B/B2C sales cycles and cultivated robust client communications.</li>
+                    <li>Drove lead generation pipelines, proactive customer handling, and long-term relationship management.</li>
+                    <li>Consistently achieved aggressive sales targets through highly optimized, conversion-focused processes.</li>
+                </ul>
+            </div>
+
+            <div class="divider"></div>
+
+            <div class="job">
+                <div class="job-header">
+                    <h4>Digital Marketing Professional</h4>
+                    <span class="company">1.5 Years Experience | Indore</span>
+                </div>
+                <ul>
+                    <li>Directed comprehensive social media management and data-backed content strategies.</li>
+                    <li>Planned high-impact promotional reels, interactive posts, and engaging content pipelines.</li>
+                    <li>Executed result-driven influencer marketing and strategic creator partnerships.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="card skills">
+            <h3>Key Skills</h3>
+            <div class="tags">
+                <span class="tag">Digital Marketing</span>
+                <span class="tag">Sales & BD</span>
+                <span class="tag">Social Media</span>
+                <span class="tag">Content Strategy</span>
+                <span class="tag">Influencer Mktg</span>
+                <span class="tag">B2B Marketing</span>
+                <span class="tag">Client Acquisition</span>
+                <span class="tag">Brand Management</span>
+                <span class="tag">Content Creation</span>
+                <span class="tag">Video Production</span>
+                <span class="tag">Negotiation</span>
+                <span class="tag">Business Dev</span>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section class="card education">
+            <h3>Education & Credentials</h3>
+            <ul>
+                <li><strong>Bachelor of Commerce (B.Com)</strong></li>
+                <li>Class 12 - Priyamvada Birla School</li>
+                <li>Class 10 - Chanakya Public School, Satna</li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>

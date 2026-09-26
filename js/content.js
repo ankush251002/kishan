@@ -61,11 +61,9 @@ window.SITE_CONTENT = {
      icon: any Font Awesome class, e.g. fa-brands fa-instagram
      --------------------------------------------------------- */
   socials: [
-    socials: [
-    { label: "YouTube",  icon: "fa-brands fa-youtube", url: "YOUR_YOUTUBE_LINK_HERE" },
-    { label: "Instagram", icon: "fa-brands fa-instagram", url: "https://www.instagram.com/digig.lab?stkn=MXE0NGZpZjM1Nzlucw==" },
-    { label: "WhatsApp", icon: "fa-brands fa-whatsapp", url: "https://wa.me/917000694616" },
-    { label: "Facebook", icon: "fa-brands fa-facebook", url: "https://www.facebook.com/share/19mgzZsJ7k/?mibextid=wwXIfr" }
+    { label: "LinkedIn",  icon: "fa-brands fa-linkedin-in", url: "#" },
+    { label: "Instagram", icon: "fa-brands fa-instagram", url: "#" },
+    { label: "WhatsApp", icon: "fa-brands fa-whatsapp", url: "#" }
   ],
 
   /* ---------------------------------------------------------

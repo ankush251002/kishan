@@ -63,7 +63,7 @@ window.SITE_CONTENT = {
   socials: [
     { label: "LinkedIn",  icon: "fa-brands fa-linkedin-in", url: "#" },
     { label: "Instagram", icon: "fa-brands fa-instagram", url: "#" },
-    { label: "WhatsApp", icon: "fa-brands fa-whatsapp", url: "#" }
+    { label: "WhatsApp", icon: "fa-brands fa-whatsapp", url: "https://wa.me/917000694616" }
   ],
 
   /* ---------------------------------------------------------
